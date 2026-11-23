@@ -1,0 +1,27 @@
+BLOOD DEMON KNIGHT - Naito 3D PSP - fuente v2
+================================================
+
+Esta es una ampliacion del prototipo de codigo fuente para PSP.
+
+Incluye en esta iteracion:
+- Movimiento con stick analogico y cruceta.
+- Camara en tercera persona que sigue a Naito.
+- Pequeno claro de bosque con arboles provisionales.
+- Boton X: efecto visual sencillo de ataque.
+- Boton O: activa/desactiva un estado visual Runaibrut temporal.
+- Boton START: salir.
+
+IMPORTANTE:
+- Esto NO es una ISO ni un EBOOT.PBP.
+- No se ha compilado ni probado en PPSSPP o PSP.
+- Requiere PSPSDK instalado para compilar.
+- Naito y los arboles siguen siendo figuras low-poly hechas con cubos.
+- No incluye todavia enemigos con IA, animaciones reales, audio, dialogos,
+  guardado, capitulos ni el mundo completo.
+- Es un paso de desarrollo, no el juego terminado.
+
+Compilacion (en un entorno con PSPSDK):
+  make
+
+El Makefile produce el EBOOT.PBP si el compilador PSP y las librerias
+estan correctamente instalados.
